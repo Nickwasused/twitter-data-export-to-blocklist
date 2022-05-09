@@ -41,7 +41,10 @@ for element in total_engagements:
     try:
         advertising.append(element["impressionAttributes"]["advertiserInfo"]["screenName"])
     except:
-        advertising.append(element["advertiserInfo"]["screenName"])
+        try:
+            advertising.append(element["advertiserInfo"]["screenName"])
+        except:
+            pass
 
 # sort
 advertising = list(dict.fromkeys(sorted(advertising)))
