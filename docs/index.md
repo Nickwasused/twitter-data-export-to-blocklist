@@ -21,19 +21,19 @@ At this point, you should have Python3 with pip3 installed, and a folder called 
 
 Now enter the folder, it should look like this:
 
-![Folder](./images/image_1.png)
+![Folder](./images/image_1.webp)
 
 After you have opened the folder, press `SHIFT` and press the Right mouse button `RMB`.
 
 You should see something like this:
 
-![RMB](./images/image_2.png)
+![RMB](./images/image_2.webp)
 
 Somewhere should be a point to "Open PowerShell window here". Click on that.
 
 A PowerShell window should open.
 
-![PowerShell](./images/image_3.png)
+![PowerShell](./images/image_3.webp)
 
 Now enter the following command: `pip3 install -r requirements.txt --user`.
 
@@ -50,11 +50,11 @@ Now you need to obtain two things:
 
 The first one is easy, go to the Settings > Your Account > Download an Archive of your Data (See images below)
 
-![Twitter-Archive](./images/image_4.png)
+![Twitter-Archive](./images/image_4.webp)
 
 Now wait for the email that the Archive is ready and after that extract the archive to the "export" folder in the "twitter-data-export-to-blocklist-main" folder.
 
-![Extracted Archive](./images/image_5.png)
+![Extracted Archive](./images/image_5.webp)
 
 ## Twitter Credentials
 
@@ -62,12 +62,12 @@ Getting a Twitter developer Account has gotten more easy over time, just follow 
 
 You are now logged in to the Dashboard.
 
-![Dashboard](./images/image_6.png)
+![Dashboard](./images/image_6.webp)
 
 Now create a new Project and give it a random name. (For example, a bad name would be "advertising blocker" or something like that.)
 The use case should be "Student" or "Teacher". I can't help you with the project description, just get creative here.
 
-![Twitter](./images/image_7.png)
+![Twitter](./images/image_7.webp)
 
 "Add an existing App or create a new App" at this point select create a new APP.
 
@@ -75,34 +75,34 @@ For the name, get creative again.
 
 Now copy your API_KEY and API_SECRET and save them somewhere.
 
-![Keys](./images/image_8.png)
+![Keys](./images/image_8.webp)
 
 Now go to your App Page and select "Keys and tokens".
 
-![Page](./images/image_9.png)
+![Page](./images/image_9.webp)
 
 After that, scroll down to "Access Token and Secret" and click on generate.
 
-![Tokens](./images/image_10.png)
+![Tokens](./images/image_10.webp)
 
 Now copy the generated "ACCESS_TOKEN" and "ACCESS_TOKEN_SECRET"
 
-![Copy](./images/image_11.png)
+![Copy](./images/image_11.webp)
 
 At this point, you need to go back to the folder "twitter-data-export-to-blocklist-main". Now rename ".env.example" to ".env".
 Open the ".env" file and fill in the values.
 
 The file should look like this now: 
 
-![File](./images/image_12.png)
+![File](./images/image_12.webp)
 
 # Generating the List
 
-Now go back to your PowerShell window (the blue one) and type "python main.py" (or maybe "python3 main.py").
+Now go back to your PowerShell window (the blue one) and type ```python main.py``` (or maybe ```python3 main.py```).
 
 The output should look like this:
 
-![Output](./images/image_13.png)
+![Output](./images/image_13.webp)
 
 # Uploading
 
@@ -116,11 +116,11 @@ Now go to the website [https://pastebin.com](https://pastebin.com) and click ins
 
 The Page should look similar to this:
 
-![pastebin.com](./images/image_14.png)
+![pastebin.com](./images/image_14.webp)
 
 Now click on create new paste and after that on "raw" (See below).
 
-![raw](./images/image_15.png)
+![raw](./images/image_15.webp)
 
 # Blocking
 
@@ -128,8 +128,8 @@ Now you need to go to [https://twitter-blocklist-auth.glitch.me/](https://twitte
 
 After that, you paste the Pastebin link there and press submit.
 
-![block-submit](./images/image_16.png)
+![block-submit](./images/image_16.webp)
 
 After that, the page is going to tell you how many accounts got blocked.
 
-![block-result](./images/image_17.png)
+![block-result](./images/image_17.webp)
