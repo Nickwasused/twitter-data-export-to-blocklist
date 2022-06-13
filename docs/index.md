@@ -96,6 +96,16 @@ The file should look like this now:
 
 ![File](./images/image_12.webp)
 
+After that, go to Products > Twitter API v2 and click on Elevated.
+
+![Elevated](./images/image_18.webp)
+
+After that, apply for the elevated access.
+
+![Elevated-2](./images/image_19.webp)
+
+Please keep in mind that you need to be creative while applying, don't write something like: "Hello Twitter I would like to block AD's."
+
 # Generating the List
 
 Now go back to your PowerShell window (the blue one) and type ```python main.py``` (or maybe ```python3 main.py```).
