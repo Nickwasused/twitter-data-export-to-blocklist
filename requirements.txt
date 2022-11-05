@@ -1,2 +1,2 @@
-python-dotenv==0.19.2
-tweepy==4.6.0
+requests>=2.28.1
+tqdm>=4.64.1

@@ -56,63 +56,13 @@ Now wait for the email that the Archive is ready and after that extract the arch
 
 ![Extracted Archive](./images/image_5.webp)
 
-## Twitter Credentials
-
-Getting a Twitter developer Account has gotten more easy over time, just follow the Steps. [https://developer.twitter.com](https://developer.twitter.com)
-
-You are now logged in to the Dashboard.
-
-![Dashboard](./images/image_6.webp)
-
-Now create a new Project and give it a random name. (For example, a bad name would be "advertising blocker" or something like that.)
-The use case should be "Student" or "Teacher". I can't help you with the project description, just get creative here.
-
-![Twitter](./images/image_7.webp)
-
-"Add an existing App or create a new App" at this point select create a new APP.
-
-For the name, get creative again.
-
-Now copy your API_KEY and API_SECRET and save them somewhere.
-
-![Keys](./images/image_8.webp)
-
-Now go to your App Page and select "Keys and tokens".
-
-![Page](./images/image_9.webp)
-
-After that, scroll down to "Access Token and Secret" and click on generate.
-
-![Tokens](./images/image_10.webp)
-
-Now copy the generated "ACCESS_TOKEN" and "ACCESS_TOKEN_SECRET"
-
-![Copy](./images/image_11.webp)
-
-At this point, you need to go back to the folder "twitter-data-export-to-blocklist-main". Now rename ".env.example" to ".env".
-Open the ".env" file and fill in the values.
-
-The file should look like this now: 
-
-![File](./images/image_12.webp)
-
-After that, go to Products > Twitter API v2 and click on Elevated.
-
-![Elevated](./images/image_18.webp)
-
-After that, apply for the elevated access.
-
-![Elevated-2](./images/image_19.webp)
-
-Please keep in mind that you need to be creative while applying, don't write something like: "Hello Twitter I would like to block AD's."
-
 # Generating the List
 
 Now go back to your PowerShell window (the blue one) and type ```python main.py``` (or maybe ```python3 main.py```).
 
-The output should look like this:
+For converting the usernamed we use https://tweeterid.com/
 
-![Output](./images/image_13.webp)
+This step can take longer because the website is rate limiting you.
 
 # Uploading
 
