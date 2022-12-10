@@ -1,2 +1,2 @@
 python-dotenv==0.19.2
-tweepy==4.6.0
+tweepy==4.12.1
